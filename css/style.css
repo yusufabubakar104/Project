@@ -1,0 +1,105 @@
+
+    body {
+        margin: 0;
+     
+        font-family: var(--bs-body-font-family);
+        font-size: var(--bs-body-font-size);
+        font-weight: var(--bs-body-font-weight);
+        line-height: var(--bs-body-line-height);
+        
+      } 
+
+#Arrow1{
+    width: 16.90px; 
+    height: 1.88px; 
+    left: 70px;
+    top: 18px;
+     position: absolute; 
+     transform: rotate(-6.34deg);
+      transform-origin: 0 0;
+       border: 3px #ff0b0b solid;
+}
+#Arrow2{
+width: 18px;
+height: 0px; 
+left: 41px;
+top: 18px;
+position: absolute;
+transform: rotate(180deg);
+transform-origin: 2 2;
+border: 3px #FCF7F7 solid;
+}
+.Water{
+    width: auto;
+ height: 600px; 
+ position: relative; 
+  
+}
+.Frame1{
+width: auto;
+ height: 600px; 
+ position: relative; 
+ background-image: url(../image/bg.png);
+}
+
+.Rectangle1{
+    width: 70%;
+    height: 50%;
+    left: 15%; 
+    top:116px; 
+    position: absolute; 
+    opacity: 0.70; background: rgba(84.28, 177.44, 177.44, 0.50);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 21px; border: 1px rgba(84, 177, 177, 0.10) solid;
+}
+
+.EarthClimate{
+    width: 30%;
+    height: 20px;
+    left: 116px;
+    top: 138px; 
+    position: absolute; 
+    text-align: center; 
+    color: #FBFFFF; 
+    font-size: 14px; 
+    font-family: Candara; 
+    font-weight: 400; 
+    word-wrap: break-word"
+}
+.Games{
+width: 40%;
+ height: 20px;
+ left: 271px;
+  top: 138px;
+   position: absolute; 
+   text-align: center;
+   color: #FBFFFF;
+    font-size: 14px;
+     font-family: Candara; 
+     font-weight: 400;
+      word-wrap: break-word;
+}
+.topNavIconHolder{
+    
+    color: black;
+    width: 10%;
+    height: 5%;
+    margin: 0%;
+    margin-left: 5%;
+    border-color: rgb(12, 12, 12);
+}
+.topNavIcon{
+    width: 10%;
+    height: 10%;
+    margin-top: 30px;
+    border-radius: 20%;
+    border-color: rgb(12, 12, 12);
+border-style:solid;
+}
+.topNavText{
+    margin-left: 8%;
+    text-decoration: none;
+    color: #FCF7F7;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
